@@ -1,0 +1,3 @@
+Model,Feature Engineering Description,Avg f1_macro,Avg. Train-Test Gap,Avg. Fit Time
+QDA,Original Features,0.50641063231455,0.11377125000057928,0.03725144529342651
+QDA,Arithmetic-based Features,0.4627034545616733,0.22339817766744038,950.2972524437905

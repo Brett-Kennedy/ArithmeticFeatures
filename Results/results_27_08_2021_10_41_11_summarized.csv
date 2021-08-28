@@ -1,0 +1,3 @@
+Model,Feature Engineering Description,Avg f1_macro,Avg. Train-Test Gap,Avg. Fit Time
+LR,Original Features,0.5869821925597261,0.03305895736556859,0.11721697425842285
+LR,Arithmetic-based Features,0.598747400417654,0.0987051906712283,9.801937970161438
