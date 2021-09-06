@@ -37,7 +37,7 @@ This shows two plots: the top for accuracy (higher is better) using a macro f1 s
 
 ### Random Forest
 ![Random Forest](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/Results/results_26_08_2021_21_25_45_plot.png)
-This again shows the accuracy, though not consitently, often higher using ArithmeticFeatures.
+This again shows the accuracy, though not consistently, often higher using ArithmeticFeatures.
 
 ### Logistic Regression
 ![Logistic Regression](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/Results/results_27_08_2021_10_41_11_plot.png)
@@ -45,5 +45,5 @@ Similar results as other models.
 
 ### Linear Discriminant Analysis
 ![Linear Discriminant Analysis](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/Results/results_27_08_2021_00_59_56_plot.png)
-This shows similar results, but was slow to execute over 100 datasets, so was removed from the test file, along with QDA.
+This shows similar results, but was slow to execute over 100 datasets, so was removed from the test file, along with Quadratic Discriminant Analysis (QDA).
 
