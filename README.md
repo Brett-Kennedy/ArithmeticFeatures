@@ -1,9 +1,9 @@
 # ArithmeticFeatures
-Feature engineering tool based on simple arithmetic operations between each pair of numeric features. This is intended both to increase the accuracy and interpretability of models for some datasets. Experimental results are included below demonstrating its utility for some models on many datasets. 
+A feature engineering tool based on simple arithmetic operations between each pair of numeric features. This is intended both to increase the accuracy and interpretability of models for some datasets. Experimental results are included below demonstrating its utility for some models on many datasets. 
 
 The tool uses the same signature, based on the fit-tranform pattern, as sklearn's PolynomialFeatures and [RotationFeatures](https://github.com/Brett-Kennedy/RotationFeatures).
 
-The tool simply generates additional numeric features through the application of basic arithmetic operations (+, -, *, /, and optionally min and max) to each pair of numeric features. It is posible to apply repeatedly, optionally interspersed  with feature selection, to create higher-order generated features, which may capture more complex feature intereactions. In our experiments, executing once is typically sufficient to capture most feature interactions, and feature selection is often not necessary depending on the model using the generated features. 
+The tool simply generates additional numeric features through the application of basic arithmetic operations (+, -, *, /, and optionally min and max) to each pair of numeric features. It is posible to apply repeatedly, optionally interspersed  with feature selection, to create higher-order generated features, which may capture more complex feature interactions. In our experiments, executing once is typically sufficient to capture most feature interactions, and feature selection is often not necessary depending on the model using the generated features, though should usually be done to reduce overfitting and execution times. 
 
 # Example
 
