@@ -25,10 +25,10 @@ y_pred = dt.predict(X_test)
 
 # Example Notebook
 
-[Simple_Test_Arithmetic-Based_Feature_Generation](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/examples/Simple_Test_Arithmetic-Based_Feature_Generation.ipynb) Provides simple examples using the tool
+[Simple_Test_Arithmetic-Based_Feature_Generation](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/examples/Simple_Test_Arithmetic-Based_Feature_Generation.ipynb) This provides simple examples using the tool.
 
 # Accuracy Testing
-[Accuracy_Test_ArithmeticFeatures](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/examples/Accuracy_Test_ArithmeticFeatures.py) Provides more thorough testing of the tool. This utilizes the [DatasetsEvaluator](https://github.com/Brett-Kennedy/DatasetsEvaluator) tool, which can simplify testing on large numbers of datasets. The file compares both classification and regression problems on several sklearn predictors (Decision Trees, RandomForest, kNN, Logistion Regression, Lasso Linear Regression, Gaussian Naive Bayes, ExtraTrees, AdaBoost, and GradientBoost). Further, it performs tests using cross-validated grid search to determine the best settings for feature generation using ArithmeticFeatures. Some results are included below.
+[Accuracy_Test_ArithmeticFeatures](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/examples/Accuracy_Test_ArithmeticFeatures.py) provides more thorough testing of the tool. This utilizes the [DatasetsEvaluator](https://github.com/Brett-Kennedy/DatasetsEvaluator) tool, which can simplify testing on large numbers of datasets, as well as reduce bias. The file compares both classification and regression problems on several sklearn predictors (Decision Trees, RandomForest, kNN, Logistion Regression, Lasso Linear Regression, Gaussian Naive Bayes, ExtraTrees, AdaBoost, and GradientBoost). Further, it performs tests using cross-validated grid search to determine the best settings for feature generation using ArithmeticFeatures. Some results are included below.
 
 # Results
 ### Decision Trees
@@ -41,9 +41,9 @@ This again shows the accuracy, though not consitently, often higher using Arithm
 
 ### Logistic Regression
 ![Logistic Regression](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/Results/results_27_08_2021_10_41_11_plot.png)
-Similar results as other models.
+Similar results as other models. Again, ArithmeticFeatures does not improve accuracy in all cases, but often does signficantly and is worth trying on may prediction tasks.
 
 ### Linear Discriminant Analysis
 ![Linear Discriminant Analysis](https://github.com/Brett-Kennedy/ArithmeticFeatures/blob/main/Results/results_27_08_2021_00_59_56_plot.png)
-This shows similar results, but was slow to execute over 100 datasets, so was removed from the test file, along with QDA.
+The test with LDA shows similar results, but was slow to execute over 100 datasets, so was removed from the test file, along with QDA.
 
